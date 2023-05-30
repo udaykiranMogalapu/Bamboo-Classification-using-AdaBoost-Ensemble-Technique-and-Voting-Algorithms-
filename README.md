@@ -14,22 +14,22 @@ To evaluate the performance we used performance evaluation metrics:Accuracy, F1 
 
 ## Results
 for hard-voting:
-Accuracy : 94.69696969697
-Precison : 94.98332123432
-Recall : 94.696969696967
-F1 score : 93.61803160567
+- Accuracy : 94.69696969697
+- Precison : 94.98332123432
+- Recall : 94.696969696967
+- F1 score : 93.61803160567
 
 for soft-voting:
-Accuracy : 97.727272727273
-Precison : 97.737431789765
-Recall : 97.7272727272723
-F1 score : 97.774556472
+- Accuracy : 97.727272727273
+- Precison : 97.737431789765
+- Recall : 97.7272727272723
+- F1 score : 97.774556472
 
 for weighted-voting:
-Accuracy : 89.393939393939
-Precison : 91.71122994674
-Recall : 89.39393939393939
-F1 score : 89.706945675742
+- Accuracy : 89.393939393939
+- Precison : 91.71122994674
+- Recall : 89.39393939393939
+- F1 score : 89.706945675742
 
 
 
