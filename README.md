@@ -6,26 +6,32 @@ In this project, firstly four boosting ensembles are trained using Naive Bayes (
 ## Dataset Preparation
 The DIMA HASAO and KARBI ANGLONG dataset is used for this project. The data preparation begins with importing the district shapefile to define the region of interest. The Google Earth Code Editor map is then upgraded to include the district layer. Sentinel data from Copernicus.eu is imported to provide high-resolution satellite imagery. Manual annotation is performed to create training data for six classes: water, land, pure bamboo, mixed bamboo, dominant bamboo, and forest. The annotated data is converted to a CSV file format, containing coordinates and class labels. Classification algorithms are trained using this data for accurate classification of unseen satellite imagery within the districts.
 
+![Sentinal_2_Image](C:\Users\HP\OneDrive\Desktop\git\Bamboo-Classification-using-AdaBoost-Ensemble-Technique-and-Voting-Algorithms-\dataset prep1.png)
+
+
+![Data_points_placed_on_the_map](C:\Users\HP\OneDrive\Desktop\git\Bamboo-Classification-using-AdaBoost-Ensemble-Technique-and-Voting-Algorithms-\dataset prep2.png)
+
+
 After dataset is prepared we preprocess the data like removing duplicates and filling the missing values
 
-## Model training and Results
+## Model training
 By using AdaBoost Ensemble Technique we train our base models which are:SVM, Naive Bayes, Random Forest, CART. Once we obtain the four ensembles we apply the voting Algorithms(hard,soft,weighted) to obtain the final improved accuracy.
 To evaluate the performance we used performance evaluation metrics:Accuracy, F1 score, Precision, Recall, Confusion matrix.
 
 ## Results
-for hard-voting:
+#### for hard-voting:
 - Accuracy : 94.69696969697
 - Precison : 94.98332123432
 - Recall : 94.696969696967
 - F1 score : 93.61803160567
 
-for soft-voting:
+#### for soft-voting:
 - Accuracy : 97.727272727273
 - Precison : 97.737431789765
 - Recall : 97.7272727272723
 - F1 score : 97.774556472
 
-for weighted-voting:
+#### for weighted-voting:
 - Accuracy : 89.393939393939
 - Precison : 91.71122994674
 - Recall : 89.39393939393939
