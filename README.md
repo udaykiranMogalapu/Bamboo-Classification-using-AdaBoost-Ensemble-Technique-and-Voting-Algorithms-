@@ -6,10 +6,10 @@ In this project, firstly four boosting ensembles are trained using Naive Bayes (
 ## Dataset Preparation
 The DIMA HASAO and KARBI ANGLONG dataset is used for this project. The data preparation begins with importing the district shapefile to define the region of interest. The Google Earth Code Editor map is then upgraded to include the district layer. Sentinel data from Copernicus.eu is imported to provide high-resolution satellite imagery. Manual annotation is performed to create training data for six classes: water, land, pure bamboo, mixed bamboo, dominant bamboo, and forest. The annotated data is converted to a CSV file format, containing coordinates and class labels. Classification algorithms are trained using this data for accurate classification of unseen satellite imagery within the districts.
 
-![Sentinal_2_Image](Bamboo-Classification-using-AdaBoost-Ensemble-Technique-and-Voting-Algorithms-\dataset prep1.png)
+![Sentinal_2_Image](Images\dataset prep1.png)
 
 
-![Data_points_placed_on_the_map](Bamboo-Classification-using-AdaBoost-Ensemble-Technique-and-Voting-Algorithms-\dataset prep2.png)
+![Data_points_placed_on_the_map](Imagess\dataset prep2.png)
 
 
 After dataset is prepared we preprocess the data like removing duplicates and filling the missing values
